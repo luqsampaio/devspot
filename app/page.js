@@ -1,13 +1,13 @@
-import React from 'react';
-import Logo from './components/Header/Logo.js';
 import CustomComponent from './components/retangulo.js';
 import Botton from './components/botton.js'; // Importe o componente Botton
+import Header from './components/Header/WrapHeader.js';
+
 
 
 const Home = () => {
   return (
     <div>
-      <Logo />
+      <Header text="Home"/>
       <CustomComponent />
       <Botton /> 
     </div>
