@@ -22,12 +22,9 @@ const Div1 = styled.div`
     align-items: center;
     width: 100%;
     max-width: 24rem;
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     gap: 20px;
     flex-wrap: wrap;
-    @media (max-width: 991px) {
-    }
 `;
 
 const Div2 = styled.div`
@@ -57,5 +54,4 @@ const PageTextName = styled.div`
     width: 100%;
     max-width: 90px;
     margin-left: -5px;
-    @media (max-width: 991px)
   `;
